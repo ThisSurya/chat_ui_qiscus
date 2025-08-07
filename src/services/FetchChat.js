@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import mockData from '../assets/mockdata.json';
+// import mockData from '../assets/mockdata.json';
 export function useChatData() {
   const [chatData, setChatData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -10,7 +10,7 @@ export function useChatData() {
       try {
         setLoading(true);
         // Fetch dari file JSON local
-        const response = await fetch('/src/assets/mockdata.json');
+        const response = await fetch('/mockdata.json');
         if (!response.ok) {
           throw new Error('Failed to fetch chat data');
         }
