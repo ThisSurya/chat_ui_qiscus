@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "room": {
+        "name": "Product A",
+        "id": 12456,
+        "image_url": "https://picsum.photos/id/237/200/300",
+        "participant": [
+          {
+            "id": "admin@mail.com",
+            "name": "Admin",
+            "role": 0
+          },
+          {
+            "id": "agent@mail.com",
+            "name": "Agent A",
+            "role": 1
+          },
+          {
+            "id": "customer@mail.com",
+            "name": "king customer",
+            "role": 2
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": 885512,
+          "type": "text",
+          "message": "Selamat malam",
+          "sender": "customer@mail.com"
+        },
+        {
+          "id": 885513,
+          "type": "text",
+          "message": "Malam",
+          "sender": "agent@mail.com"
+        },
+        {
+          "id": 885514,
+          "type": "text",
+          "message": "Ada yang bisa saya bantu?",
+          "sender": "agent@mail.com"
+        },
+        {
+          "id": 885515,
+          "type": "text",
+          "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+          "sender": "customer@mail.com"
+        },
+        {
+          "id": 885516,
+          "type": "text",
+          "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+          "sender": "agent@mail.com"
+        },
+        {
+          "id": 885514,
+          "type": "image",
+          "message": "Lihat gambar produk terbaru",
+          "sender": "customer@mail.com",
+          "attachments": [
+            {
+              "id": "a1b2c3d4",
+              "message_id": 885514,
+              "file_url": "https://picsum.photos/600/400",
+              "type": "image",
+              "uploaded_at": "2025-08-07T17:45:00Z"
+            }
+          ]
+        },
+        {
+          "id": 885515,
+          "type": "video",
+          "message": "Video demo fitur",
+          "sender": "agent@mail.com",
+          "attachments": [
+            {
+              "id": "e5f6g7h8",
+              "message_id": 885515,
+              "file_url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              "type": "video",
+              "uploaded_at": "2025-08-07T17:46:00Z"
+            }
+          ]
+        },
+        {
+          "id": 885516,
+          "type": "pdf",
+          "message": "Dokumen panduan",
+          "sender": "agent@mail.com",
+          "attachments": [
+            {
+              "id": "i9j0k1l2",
+              "message_id": 885516,
+              "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "type": "pdf",
+              "uploaded_at": "2025-08-07T17:47:00Z"
+            }
+          ]
+        },
+        {
+          "id": 885517,
+          "type": "text",
+          "message": "Terima kasih, akan saya pelajari.",
+          "sender": "customer@mail.com"
+        }
+      ]
+    }
+  ]
+}
